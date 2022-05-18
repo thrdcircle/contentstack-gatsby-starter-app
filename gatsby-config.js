@@ -55,9 +55,9 @@ module.exports = {
     {
       resolve: "gatsby-source-contentstack",
       options: {
-        api_key: CONTENTSTACK_API_KEY,
-        delivery_token: CONTENTSTACK_DELIVERY_TOKEN,
-        environment: CONTENTSTACK_ENVIRONMENT,
+        api_key: "blt5469f95cfe1c2d6c",
+        delivery_token: "csb7f7d9be47ce1ce00477e15f",
+        environment: "gatspreview",
         cdn: `https://${cdnHost}/v3`,
         // Optional: expediteBuild set this to either true or false
         expediteBuild: true,
